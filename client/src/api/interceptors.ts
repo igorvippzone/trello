@@ -3,8 +3,9 @@ import {getAccessToken, removeTokenFromStorage} from "@/services/auth-token.serv
 import {errorCatch} from "@/api/error";
 import {authService} from "@/services/auth.service";
 
+// console.log(process.env)
 const options: CreateAxiosDefaults = {
-    baseURL: process.env.BACKEND_URL,
+    baseURL: 'http://localhost:4200/api',
     headers: {
         'Content-Type': 'application/json',
     },

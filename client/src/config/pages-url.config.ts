@@ -1,5 +1,5 @@
 class DASHBOARD{
-    private root = '/app'
+    private root = '/i'
 
     HOME = this.root
     TASKS = `${this.root}/tasks`
